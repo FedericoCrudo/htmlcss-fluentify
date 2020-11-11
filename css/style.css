@@ -104,7 +104,7 @@ header{
 }
 .language h3{
     font-size: 22px;
-    color: grey;
+    color: rgb(95, 69, 69);
 }
 .block{
     width: 33%;
@@ -165,7 +165,20 @@ footer{
 .footer-block{
     width: 50%;
     float:left;
-    border: 3px solid black;
+   padding-left:90px ;
     margin-top: 50px;
-   
+}
+#select{
+    padding-left:30px;
+    padding: 10px;
+    width: 150px;
+    
+}
+#help{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding:10px;
+    background-color:#7cbb02;
+    border-radius: 5px;
 }
