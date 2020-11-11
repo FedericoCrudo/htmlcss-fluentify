@@ -159,20 +159,28 @@ header{
 }
 footer{
     height: 130px;
-    background-color:#0d325a ;
-    
+    background-color:rgb(196, 187, 187);
 }
 .footer-block{
     width: 50%;
     float:left;
-   padding-left:90px ;
+    padding-left:90px ;
     margin-top: 50px;
 }
 #select{
     padding-left:30px;
-    padding: 10px;
-    width: 150px;
-    
+    padding: 5px;
+    width: 150px;  
+    background-color: transparent;
+    color: grey;
+    border: 0px solid;
+    border-bottom:1px solid grey;
+    margin: 0 20px;
+    font-size: 22px;
+}
+
+*:focus{
+    outline: none;
 }
 #help{
     position: fixed;
