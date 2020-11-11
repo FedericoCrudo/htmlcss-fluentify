@@ -120,17 +120,38 @@ main{
     width: 33%;
     height: 1200px;
    float: left;
-   background-color: red;
    position: relative;
    margin-top: 60px;
-   border: 1px solid black;
+   padding: 10px;
+}
+.block-top{
+    padding-bottom:40px ;
 }
 .block-top img{
     width: 200px;
     height: 200px;
     position: absolute;
-    top:0%;
+    top:0;
     left: 50%;
-    transform: translate(-50%);
-    
+    transform: translate(-50%);  
+}
+.block-top h1{
+    margin-top:60%;
+    text-align: center;
+    color: #7cbb02 ;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.block-top .hr{
+    width: 100px;
+    height: 2px;
+    background-color: grey;
+    margin: auto;
+
+}
+.main-block p{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
 }
