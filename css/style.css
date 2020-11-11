@@ -118,7 +118,6 @@ main{
 
 .block{
     width: 33%;
-    height: 1200px;
    float: left;
    position: relative;
    margin-top: 60px;
@@ -139,7 +138,7 @@ main{
     margin-top:60%;
     text-align: center;
     color: #7cbb02 ;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 .block-top .hr{
@@ -147,7 +146,6 @@ main{
     height: 2px;
     background-color: grey;
     margin: auto;
-
 }
 .main-block p{
     color: grey;
