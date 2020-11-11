@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    /*roboto monserat */
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear-fix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*affinche solo alcuni elementi vengano evidenziati*/
+
+.btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.btn-green{
+    background-color: #7cbb02;
+}
+.btn-large{
+    padding: 20px;
+}
+.btn-blue{
+    
+    border: 1px solid white;
+    padding: 8px 25px;
+}
+header{
+    height: 550px;
+    background-color:#0d325a;
+    background-image:url(../img/background-header.png) ;
+    background-size: 60%;
+    background-position: 110% 110%;
+    background-repeat: no-repeat;
+    color: white;
+}
+main{
+    height: 700px;
+}
+.header-nav{
+    width: 100%;
+    height: 80px;
+    line-height: 55px; 
+   
+}
+.header-nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+}
+.nav-center li:hover{
+    cursor: pointer;
+    background-color:#7cbb02;
+}
+.header-nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.logo{
+    width: 15%;
+}
+.logo >img{
+    margin-top:5px ;
+}
+.jumbotron{
+    height: 470px;
+    position: relative;
+}
+.jumbotron-title{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    font-size: 30px;
+}
+.jumbotron-title >h1{
+    margin-bottom: 50px;
+}
+.language{
+    height: 150px;
+    background-color:rgb(196, 187, 187);
+    text-align: center;
+    line-height: 40px;
+    padding-top: 40px;
+}
+.language h1{
+    font-size: 30px;
+}
+.language h3{
+    font-size: 22px;
+    color: grey;
+}
+
+.block{
+    width: 33%;
+    height: 1200px;
+   float: left;
+   background-color: red;
+   position: relative;
+   margin-top: 60px;
+   border: 1px solid black;
+}
+.block-top img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:0%;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
